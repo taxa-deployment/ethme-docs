@@ -1,7 +1,7 @@
 ---
 title: ENS-DNS Redirection
 date: 2024-01-05
-slug: ens
+slug: overview
 
 ---
 ## Import starter
