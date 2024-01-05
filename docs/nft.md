@@ -1,7 +1,7 @@
 ---
-title: Getting started
-date: 2018-09-15 07:42:34
-slug: getting-started
+title: ERC721 Redirection
+date: 2021-01-05
+slug: nft
 ---
 
 ## What is Jamdocs

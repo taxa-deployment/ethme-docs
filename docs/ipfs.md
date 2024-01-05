@@ -1,7 +1,7 @@
 ---
-title: Theme configuration 
-date: 2018-09-15 07:42:34
-slug: theme-configuration
+title: ENS-IPFS Redirection 
+date: 2024-01-05
+slug: ipfs
 ---
 
 ## Changing logo

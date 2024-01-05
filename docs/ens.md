@@ -1,7 +1,7 @@
 ---
-title: Forestry CMS
-date: 2020-01-02
-slug: forestry-cms
+title: ENS-DNS Redirection
+date: 2024-01-05
+slug: ens
 
 ---
 ## Import starter
