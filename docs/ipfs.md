@@ -4,11 +4,11 @@ date: 2024-01-05
 slug: ipfs
 ---
 
-## Changing logo
+## How does ETH.me work with IPFS
 Since there is a bright and a dark theme in Jamdocs, you will need two logotypes. Just replace the two svg files in `src/assets/img` where the dark on is named `logo-dark.svg` and the bright one is named `logo-bright.svg`. If you can´t provide SVG logos, you can just change the file format to for example PNG in line 5 and 10 `src/components/Logo.vue`.
 
 
-## Adding icons
+## Host your web3 sites on IPFS
 If you need to use icons somewhere in the theme, you can use any icon from [Feather Icons](https://feathericons.com/) as a component. All that is needed is that you import the icon in the component you want to use it like i do it in the theme switcher component:
 
 ```javascript

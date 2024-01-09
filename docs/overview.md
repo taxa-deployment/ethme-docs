@@ -4,39 +4,42 @@ date: 2024-01-05
 slug: overview
 
 ---
-## Import starter
+## Why Use ETH.me: The User's Guide
 
-[![](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=samuelhorn/jamdocs&engine=other&preview=https://res.cloudinary.com/forestry-io/image/fetch/w_400,h_300,c_fill,f_jpg/https://forestry.io/img/starters/jamdocs.png "Import to Forestry")
+ETH.me's mission is to bridge the gap between the traditional web2 space and the emerging web3 landscape. For users and developers entrenched in the web3, ETH.me offers a seamless and decentralized gateway to access and showcase web3 content. Here's why ETH.me is an indispensable tool in your development toolkit:
 
-This project has been pre-configured to work with Forestry, just import your repository ✨
-Any changes you make will be commited back to the repo,
+* **Ease of Access to Web3 Content:** Traditional browsers, by design, don't support direct access to web3 content due to the fundamental differences in DNS and ENS protocols. ETH.me eliminates this barrier, offering a straightforward and user-friendly way to access ENS domains and IPFS content, without the need for third-party add-ons or extensions.
 
-## Start Instant Previews
+* **Simplified Web3 Navigation:** With ETH.me, accessing web3 content is as simple as appending ".me" to an ENS domain. For example, navigating to *`name.eth.me`* directly opens the *`name.eth`* domain in the browser. This simplicity streamlines the process, making web3 content more accessible and eliminating the need for additional setups like adding https:// prefixes  metamask's design).
 
-Start the preview environement if you want to be able to preview your website.
+* **Decentralized Data Retrieval:** ETH.me upholds the core principle of decentralization in web3. Unlike other services that may rely on centralized servers, ETH.me ensures that the data from ENS is directly pulled by the user’s browser from the Ethereum mainnet. This approach guarantees the integrity and authenticity of the data, aligning with the ethos of web3.
 
-Go to **Settings / Preview** and click on the **Start** button.
+* **Redundancy and Reliability:** In a domain where services like eth.link and eth.limo exist, ETH.me provides an alternative that is not just reliable but also acts as a safeguard against single points of failure and censorship. Its usage contributes to the resilience of the web3 ecosystem.
 
-It will clone your site on Forestry preview environment, install the project dependencies, and launch your npm script to launch `gridsome develop`
+* **Optimized for Developer Use:** ETH.me is more than just a gateway; it's a developer-friendly platform. With its easy integration and straightforward access mechanism, developers can efficiently build and test web3 applications, ensuring a wider reach and better user experience.
 
-![](/forestry-instant-previews.png)
+* **One of the Best Domain Options:** Boasting one of the shortest and most intuitive domains in the web3 space, ETH.me stands out for its ease of use and recall, making it an ideal choice for both developers and end-users.
 
-Once the server is started, you will be able to **click on the preview icon** when you're editing a document (even without saving your changes).
+In summary, ETH.me is not just a tool but a catalyst in the web3 development process, offering ease of access, decentralization, and reliability. It empowers developers to seamlessly integrate and interact with web3 content, paving the way for innovative applications and wider adoption of blockchain technologies.
 
-## Adding pages
 
-Go in the **Docs** section and click **Create** to add a new page to your documentation. The default front matter template contains `title`, `date` and `slug`fields. You can add new ones by editing the front matter template.
+## Get Started
 
-## Front matter
+### For Personal ENS Domain Owners
 
-You can edit the **Documention Page** front matter template by cliking on **Front Matter** in the sidebar. From here you can add new fields to enhance the current template.
+If you have a personal ENS domain name and wish to setup redirection rules to bridge it to a web2, visit [![](https://docs.eth.me/ens "ENS-DNS Redirection")
 
-![](/forestry-front-matter-template.png)
+### For Businesses in web3
 
-## Managing sidebar topics
+Businesses looking to establish a *`project.eth.me`* URL for their web3 site can find comprehensive setup instructions in our guide. Visit [![](https://docs.eth.me/ipfs "ENS-IPFS Redirection") to begin integrating your business into the web3 domain.
 
-Click on the **Menu** section in Forestry to add a new section or topics from the user interface. Forestry will write the changes to the JSON file. 🎉
+### For NFT Profile Picture Owners
 
-![](/forestry-sidebar-settings.png)
+**Coming soon!** If you're looking to use your NFT profile picture as an entrance to your web3 profile but not currently using a personal ENS domain, we're developing this feature. Stay tuned for updates.
 
-See [Forestry documentation](https://forestry.io/docs) if you want to know more.
+### Need Help?
+
+For any questions or support, join our discussion on Discord. Our community is here to assist you with any queries you have.
+
+
+
