@@ -9,6 +9,8 @@ Since there is a bright and a dark theme in Jamdocs, you will need two logotypes
 
 
 ## Host your web3 sites on IPFS
+To add a content hash to my domain?
+
 If you need to use icons somewhere in the theme, you can use any icon from [Feather Icons](https://feathericons.com/) as a component. All that is needed is that you import the icon in the component you want to use it like i do it in the theme switcher component:
 
 ```javascript
@@ -43,7 +45,7 @@ $sidebarBright: #f3f4f5;
 $textBright: #2a2c2f;
 
 // Brand
-$brandPrimary: #10c186;
+$brandPrimary: #ec57de;
 ```
 
 ## Changing font
