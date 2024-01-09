@@ -1,5 +1,5 @@
 ---
-title: ENS-DNS Redirection
+title: Overview
 date: 2024-01-05
 slug: overview
 
@@ -27,11 +27,11 @@ In summary, ETH.me is not just a tool but a catalyst in the web3 development pro
 
 ### For Personal ENS Domain Owners
 
-If you have a personal ENS domain name and wish to setup redirection rules to bridge it to a web2, visit [![](https://docs.eth.me/ens "ENS-DNS Redirection")
+If you have a personal ENS domain name and wish to setup redirection rules to bridge it to a web2, visit [ENS-DNS Redirection](ens)
 
 ### For Businesses in web3
 
-Businesses looking to establish a *`project.eth.me`* URL for their web3 site can find comprehensive setup instructions in our guide. Visit [![](https://docs.eth.me/ipfs "ENS-IPFS Redirection") to begin integrating your business into the web3 domain.
+Businesses looking to establish a *`project.eth.me`* URL for their web3 site can find comprehensive setup instructions in our guide. Visit [ENS-IPFS Redirection](ipfs) to begin integrating your business into the web3 domain.
 
 ### For NFT Profile Picture Owners
 
