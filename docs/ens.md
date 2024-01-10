@@ -4,38 +4,35 @@ date: 2024-01-05
 slug: ens
 
 ---
-## How does ETH.me retrive data from ENS?
+## How ETH.me Retrieves Data from ENS
 
-Customized resolver contract
-[![](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=samuelhorn/jamdocs&engine=other&preview=https://res.cloudinary.com/forestry-io/image/fetch/w_400,h_300,c_fill,f_jpg/https://forestry.io/img/starters/jamdocs.png "Import to Forestry")
+ETH.me functions akin to a reverse proxy for the ENS and IPFS protocols, enabling access via HTTPS through client-side browsers.
 
-This project has been pre-configured to work with Forestry, just import your repository ✨
-Any changes you make will be commited back to the repo,
+When a user sends an HTTPS request to `name.eth.me`, our wildcard DNS record `*.eth.me` captures the request. The server then informs the client's browser of the corresponding ENS names. Subsequently, the browser's web3.js accesses the default ENS resolver contract on the Ethereum mainnet. The frontend JavaScript then redirects the browser to the appropriate URL, following the redirection rules outlined in the "Redirection Rules" section. The interaction between user-end browser, ETH.me and Ethereum blockchain can be described by the picture below:
 
-## Supported fields 
+![interactions](ens-1.png)
 
-Start the preview environement if you want to be able to preview your website.
+## Redirection Rules
 
-Go to **Settings / Preview** and click on the **Start** button.
+ETH.me can redirect a DNS request such as `name.eth.me` to any link specified in the ENS domain records of `name.eth`. This includes links to platforms like Twitter, GitHub, LinkedIn, and IPFS.
 
-It will clone your site on Forestry preview environment, install the project dependencies, and launch your npm script to launch `gridsome develop`
+To determine the redirection target, the ENS domain owner must set a subfield named `index`. When a user requests a URL at `name.eth`, ETH.me, by default, searches for the `index` record. The value of the `index` field indicates another field. For instance, if set to `twitter`, ETH.me will redirect to the URL specified in the `twitter` field.
 
-![](/forestry-instant-previews.png)
+If the `index` field value is unset, ETH.me will redirect based on the sequence in the "ENS Subfields Reference" table provided below.
 
-Once the server is started, you will be able to **click on the preview icon** when you're editing a document (even without saving your changes).
+## ENS Subfields Reference
 
-## Setting up subdomain fields
+The following table outlines the various subfields recognized by ETH.me for redirection purposes:
 
-Go in the **Docs** section and click **Create** to add a new page to your documentation. The default front matter template contains `title`, `date` and `slug`fields. You can add new ones by editing the front matter template.
-
-
-You can edit the **Documention Page** front matter template by cliking on **Front Matter** in the sidebar. From here you can add new fields to enhance the current template.
-
-![](/forestry-front-matter-template.png)
-
-
-Click on the **Menu** section in Forestry to add a new section or topics from the user interface. Forestry will write the changes to the JSON file. 🎉
-
-![](/forestry-sidebar-settings.png)
-
-See [Forestry documentation](https://forestry.io/docs) if you want to know more.
+| Name         | Comment               |
+|--------------|-----------------------|
+| index        | The primary field for redirection |
+| twitter      | Link to a Twitter profile |
+| contentHash  | URL of an IPFS resource |
+| url          | Any arbitrary HTTPS URL |
+| gitHub       | Link to a GitHub profile |
+| discord      | Discord server or user link |
+| opensea      | Link to an OpenSea profile or collection |
+| telegram     | Telegram group or channel link |
+| reddit       | Reddit profile or subreddit link |
+| etherscan    | Link to an Etherscan page |

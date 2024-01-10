@@ -10,7 +10,7 @@ ETH.me's mission is to bridge the gap between the traditional web2 space and the
 
 * **Ease of Access to Web3 Content:** Traditional browsers, by design, don't support direct access to web3 content due to the fundamental differences in DNS and ENS protocols. ETH.me eliminates this barrier, offering a straightforward and user-friendly way to access ENS domains and IPFS content, without the need for third-party add-ons or extensions.
 
-* **Simplified Web3 Navigation:** With ETH.me, accessing web3 content is as simple as appending ".me" to an ENS domain. For example, navigating to *`name.eth.me`* directly opens the *`name.eth`* domain in the browser. This simplicity streamlines the process, making web3 content more accessible and eliminating the need for additional setups like adding https:// prefixes  metamask's design).
+* **Simplified Web3 Navigation:** With ETH.me, accessing web3 content is as simple as appending ".me" to an ENS domain. For example, navigating to *`name.eth.me`* directly opens the *`name.eth`* domain in the browser. This simplicity streamlines the process, making web3 content more accessible.
 
 * **Decentralized Data Retrieval:** ETH.me upholds the core principle of decentralization in web3. Unlike other services that may rely on centralized servers, ETH.me ensures that the data from ENS is directly pulled by the user’s browser from the Ethereum mainnet. This approach guarantees the integrity and authenticity of the data, aligning with the ethos of web3.
 

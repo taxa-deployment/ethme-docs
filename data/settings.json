@@ -8,17 +8,9 @@
           "slug": "overview"
         },
         {
-          "title": "ENS-DNS Redirection",
+          "title": "Use the ENS-DNS Portal",
           "slug": "ens"
         },
-        {
-          "title": "ENS-IPFS Redirection",
-          "slug": "ipfs"
-        },
-        {
-          "title": "ERC721 Redirection",
-          "slug": "nft"
-        }
       ]
     }
   ]
