@@ -16,12 +16,12 @@ When a user sends an HTTPS request to `name.eth.me`, our wildcard DNS record `*.
 
 ETH.me can redirect a DNS request such as `name.eth.me` to any link specified in the ENS domain records of `name.eth`. This includes links to platforms like Twitter, GitHub, LinkedIn, and IPFS.
 
-To determine the redirection target, the ENS domain owner should set a subfield named **`index`**. When a user requests a URL at `name.eth`, ETH.me, by default, searches for the `index` record. The value of the `index` field indicates another field. For instance, if set to `twitter`, ETH.me will redirect to the URL specified in the `twitter` field. For example, to redirect your ENS name to a twitter link, you should set 2 ENS records:
+To determine the redirection target, the ENS domain owner should set a subfield named **`index`**. When a user requests a URL at `name.eth`, ETH.me, by default, searches for the `index` record. The value of the `index` field indicates another field. For instance, if set to `twitter`, ETH.me will redirect to the URL specified in the `twitter` field. You should set 2 ENS records to setup the twitter link redirection:
 
 | Name         | Value               |
 |:----------------|:-------------------------|
-| index        | **twitter** |
-| **twitter**      | https://twitter.com/TaxaNetwork |
+| index        | *twitter* |
+| *twitter*    | https://twitter.com/TaxaNetwork |
 
 If the `index` field value is unset, ETH.me will redirect based on the exact sequence in the "ENS Subfields Reference" table provided in the section below.
 
