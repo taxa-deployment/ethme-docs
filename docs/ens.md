@@ -18,10 +18,10 @@ ETH.me can redirect a DNS request such as `name.eth.me` to any link specified in
 
 To determine the redirection target, the ENS domain owner must set a subfield named `index`. When a user requests a URL at `name.eth`, ETH.me, by default, searches for the `index` record. The value of the `index` field indicates another field. For instance, if set to `twitter`, ETH.me will redirect to the URL specified in the `twitter` field.
 
-| Name         | Comment               |
+| Record name         | Record value               |
 |:----------------|:-------------------------|
-| index        | [twitter]()) |
-| [twitter]()  | https://twitter.com/TaxaNetwork |
+| index        | twitter |
+| twitter      | https://twitter.com/TaxaNetwork |
 
 If the `index` field value is unset, ETH.me will redirect based on the sequence in the "ENS Subfields Reference" table provided below.
 
