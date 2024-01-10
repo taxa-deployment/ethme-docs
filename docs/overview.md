@@ -31,7 +31,7 @@ If you have a personal ENS domain name and wish to setup redirection rules to br
 
 ### For Businesses in web3
 
-Businesses looking to establish a *`project.eth.me`* URL for their web3 site can find comprehensive setup instructions in our guide. Visit [Setup IPFS links](ens#ipfs) to begin integrating your business into the web3 domain.
+Businesses looking to establish a *`project.eth.me`* URL for their web3 site can find comprehensive setup instructions in our guide. Visit [Setup IPFS links](ens#setting-up-ipfs-urls) to begin integrating your business into the web3 domain.
 
 ### For NFT Profile Picture Owners
 
