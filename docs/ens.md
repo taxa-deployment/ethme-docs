@@ -25,10 +25,10 @@ If the `index` field value is unset, ETH.me will redirect based on the sequence 
 The following table outlines the various subfields recognized by ETH.me for redirection purposes:
 
 | Name         | Comment               |
-|--------------|-----------------------|
+|:----------------|:-------------------------|
 | index        | The primary field for redirection |
-| twitter      | Link to a Twitter profile |
 | contentHash  | URL of an IPFS resource |
+| twitter      | Link to a Twitter profile |
 | url          | Any arbitrary HTTPS URL |
 | gitHub       | Link to a GitHub profile |
 | discord      | Discord server or user link |
@@ -36,3 +36,5 @@ The following table outlines the various subfields recognized by ETH.me for redi
 | telegram     | Telegram group or channel link |
 | reddit       | Reddit profile or subreddit link |
 | etherscan    | Link to an Etherscan page |
+
+## Setting up IPFS URLs
