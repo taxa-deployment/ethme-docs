@@ -10,7 +10,7 @@ ETH.me functions akin to a reverse proxy for the ENS and IPFS protocols, enablin
 
 When a user sends an HTTPS request to `name.eth.me`, our wildcard DNS record `*.eth.me` captures the request. The server then informs the client's browser of the corresponding ENS names. Subsequently, the browser's web3.js accesses the default ENS resolver contract on the Ethereum mainnet. The frontend JavaScript then redirects the browser to the appropriate URL, following the redirection rules outlined in the "Redirection Rules" section. The interaction between user-end browser, ETH.me and Ethereum blockchain can be described by the picture below:
 
-![interactions](ens-1.png)
+![interactions](/ens-1.png)
 
 ## Redirection Rules
 
