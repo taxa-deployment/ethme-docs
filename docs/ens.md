@@ -101,4 +101,4 @@ Once you have uploaded your website on IPFS, you can link it to your ENS Name by
 
 5. Click save and confirm transaction.
 
-A detailed step by step guide on IPFS Uploading and Linking IPFS with ENS Name can be found [here](https://docs.ipfs.tech/how-to/websites-on-ipfs/single-page-website/#install-ipfs-desktop), in ENS Domains article.
+A detailed step by step guide on IPFS Uploading and Linking IPFS with ENS Name can be found [here](https://support.ens.domains/en/articles/7890637-create-a-decentralized-website), in ENS Domains article.
