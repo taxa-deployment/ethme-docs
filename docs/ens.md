@@ -16,12 +16,12 @@ When a user sends an HTTPS request to `name.eth.me`, our wildcard DNS record `*.
 
 ETH.me can redirect a DNS request such as `name.eth.me` to any link specified in the ENS domain records of `name.eth`. This includes links to platforms like Twitter, GitHub, LinkedIn, and IPFS.
 
-To determine the redirection target, the ENS domain owner should set a subfield named **`index`**. When a user requests a URL at `name.eth`, ETH.me, by default, searches for the `index` record. The value of the `index` field indicates another field. For instance, if set to `twitter`, ETH.me will redirect to the URL specified in the `twitter` field. You should set 2 ENS records to setup the twitter link redirection:
+To determine the redirection target, the ENS domain owner should set a subfield named **`index`**. When a user requests a URL at `name.eth`, ETH.me, by default, searches for the `index` record. The value of the `index` field indicates another field. For instance, if set to `com.twitter`, ETH.me will redirect to the URL specified in the `com.twitter` field. You should set 2 ENS records to setup the twitter link redirection:
 
 | Name         | Value               |
 |:----------------|:-------------------------|
-| index        | *twitter* |
-| *twitter*    | https://twitter.com/TaxaNetwork |
+| index        | *com.twitter* |
+| *com.twitter*    | TaxaNetwork |
 
 If the `index` field value is unset, ETH.me will redirect based on the exact sequence in the "ENS Subfields Reference" table provided in the section below.
 
@@ -32,15 +32,16 @@ The following table outlines the various subfields recognized by ETH.me for redi
 | Name         | Comment               |
 |:----------------|:-------------------------|
 | index        | The primary field for redirection |
-| contentHash  | URL of an IPFS resource |
-| twitter      | Link to a Twitter profile |
+| content hash  | URL of an IPFS resource |
+| com.twitter      | Twitter username |
 | url          | Any arbitrary HTTPS URL |
-| gitHub       | Link to a GitHub profile |
-| discord      | Discord server or user link |
-| opensea      | Link to an OpenSea profile or collection |
-| telegram     | Telegram group or channel link |
-| reddit       | Reddit profile or subreddit link |
-| etherscan    | Link to an Etherscan page |
+| com.github       | GitHub username |
+| com.discord      | Discord username |
+| com.opensea      | OpenSea username |
+| com.telegram     | Telegram username |
+| com.reddit       | Reddit username |
+| com.linkedin       | Linkedin username |
+| com.etherscan    | Etherscan address |
 
 ## Setting up IPFS URLs
 Setting up a decentralized web3 website involves utilizing protocols like IPFS and ENS. Firstly we will need a static website or webpage to upload it to IPFS. There are several methods to upload files to IPFS, some of which are listed below.
