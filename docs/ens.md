@@ -23,7 +23,7 @@ To determine the redirection target, the ENS domain owner should set a subfield 
 | index        | *com.twitter* |
 | *com.twitter*    | TaxaNetwork |
 
-If the `index` field value is unset, ETH.me will redirect based on the exact sequence in the "ENS Subfields Reference" table provided in the section below.
+If the `index` field value is unset, ETH.me will redirect to the ENS domain's detail page.
 
 ## ENS Subfields Reference
 
@@ -36,7 +36,6 @@ The following table outlines the various subfields recognized by ETH.me for redi
 | com.twitter      | Twitter username |
 | url          | Any arbitrary HTTPS URL |
 | com.github       | GitHub username |
-| com.discord      | Discord username |
 | com.opensea      | OpenSea username |
 | com.telegram     | Telegram username |
 | com.reddit       | Reddit username |
