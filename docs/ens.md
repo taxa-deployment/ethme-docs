@@ -23,7 +23,7 @@ To determine the redirection target, the ENS domain owner should set a subfield 
 | index        | *com.twitter* |
 | *com.twitter*    | TaxaNetwork |
 
-If the `index` field value is unset, ETH.me will check `content hash` field value and redirect to it. If both index and content hash fields are unset, then it will redirect to the ENS domain's detail page.
+If the `index` field value is unset, ETH.me will check `content hash` field value and redirect to it. If `content hash` is not set as well, it will check `url` field and redirect to it. If all three fields index, content hash and url are unset, then it will redirect to the ENS domain's detail page.
 
 ## ENS Subfields Reference
 
